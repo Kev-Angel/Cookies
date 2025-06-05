@@ -1,0 +1,9 @@
+Criterios:
+- CRUD
+- Encriptacion
+- API
+- Funciones
+
+Esencial
+
+1- 
