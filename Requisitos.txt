@@ -6,4 +6,16 @@ Criterios:
 
 Esencial
 
-1- 
+1 - CRUD funcional
+2 - Validacion en todas las cajas de texto, Incluso el Rut
+3 - Usar metodos para aparecer,mostrar, ocultar algo Div
+4 - Usar Arreglos para los datos presentados
+5 - Poner una imagen y relacionarla con un enlace correspondiente
+
+6 - Desarrollar el diseno de formularios con uso de API (Bootstrap) y enlaces, crear botones, cajas de texto y darle diseno
+7 - Desarrollar funciones para calcular la UTM, El euro y UF en Pesos chilenos
+8 - Desarrollar calculos a traves de JS que demuestren logica de programacion (aqui me refiero a hacer algo parecido a una calculadora, o comparados de precios, tipo, si compras esto en vez de esto, te sale mas barato)
+9 - Levantar el sitio web
+
+10 - Generar un algoritmo que permita calcular la edad de una persona, ingresando la fecha de nacimiento
+11 - Desarrollar metodos de encriptacion que permita mostrar a traves de una funcion el cambio de los datos ingresados por el usuario, a un texto cifrado
