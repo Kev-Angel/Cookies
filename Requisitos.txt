@@ -19,3 +19,8 @@ Esencial
 
 10 - Generar un algoritmo que permita calcular la edad de una persona, ingresando la fecha de nacimiento
 11 - Desarrollar metodos de encriptacion que permita mostrar a traves de una funcion el cambio de los datos ingresados por el usuario, a un texto cifrado
+
+Git comandos para subir archivo
+1 - Git add .
+2 - Git commit -m "mensjase"
+3 -  Git push

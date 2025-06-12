@@ -15,7 +15,7 @@ function agregarAlCarrito(nombre) {
         carrito.push({ nombre, cantidad: 1 });
     }
     
-    guardarCarrito(); // Guarda cambios en LocalStorage
+    guardarCarrito(); // Guardcambios en LocalStorage
     actualizarCarrito();
 }
 
@@ -61,6 +61,4 @@ function actualizarCarrito() {
     finalizarCompraBtn.classList.toggle("d-none", carrito.length === 0);
 }
 
-// **Cargar carrito al iniciar**
-// Cargar carrito al iniciar automáticamente
 document.addEventListener("DOMContentLoaded", actualizarCarrito);
