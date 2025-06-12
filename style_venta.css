@@ -1,0 +1,23 @@
+#container_5{
+    background: #e9e0ff;
+    background: linear-gradient(264deg, rgba(233, 224, 255, 1) 24%, rgba(245, 255, 224, 1) 86%);
+}
+
+@keyframes cambiarColor {
+    0% { background: #f3fbff; }
+    50% { background: #e6effb; }
+    100% { background: #e0f4e3; }
+}
+
+.card-img-top {
+    height: 200px; /* Tamaño uniforme para todas las imágenes */
+    object-fit: cover; /* Asegura que la imagen se ajuste sin distorsionarse */
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}

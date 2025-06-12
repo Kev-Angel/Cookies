@@ -1,0 +1,55 @@
+body{
+    background: #faf7ee;
+    background: linear-gradient(121deg, rgba(245, 241, 228, 1) 14%, rgba(228, 206, 237, 1) 100%);
+}
+
+#container1{
+    background: #e9e0ff;
+    background: linear-gradient(264deg, rgba(233, 224, 255, 1) 24%, rgba(245, 255, 224, 1) 86%);
+    animation: cambiarColor 2s infinite alternate;
+}
+
+#cont2{
+    
+    display: flex;
+    justify-content:space-evenly;
+}
+
+/* Carrusel */
+.carousel-inner img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+@keyframes cambiarColor {
+    0% { background: #f3fbff; }
+    50% { background: #d4e7ff; }
+    100% { background: #e0f4e3; }
+}
+
+#imagen_1{
+    width: 60%;
+    height: 60%;
+}
+#imagen_2{
+    width: 55.5%;
+    height: 60%;
+}
+#botonimg3{
+    margin: 400px;
+}
+
+#card1{
+    font-size: 13px;
+}
+.img999{
+    width: 40px;
+    height: 40px;
+    margin-left:5px ;
+}
+
+#futer{
+    background-color: rgb(182, 223, 255);
+    text-decoration: none;
+}

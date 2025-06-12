@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio a CLP</title>
+        <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_api.css">
+</head>
+<body>
+        <nav class="navbar navbar-expand bg-light navbar-light">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="galletas.png"
+                alt="imagen de galleta"
+                width="33"
+                height="33"
+                class="d-inline-block align-text-top"
+              />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="formulario.html">Formulario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="venta.html">Reservar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="clpconversicon.html">Monedas</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              >otros</a
+            >
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Rut.html">Rut</a></li>
+              <li><a class="dropdown-item" href="CambioClp.html">Calcular cambio a $CLP</a></li>
+              <li><a class="dropdown-item" href="edad.html">Tu edad</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+        <div class="container mt-5">
+        <h1 class="text-center mb-4">📊 Indicadores Económicos</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card shadow p-3 mb-4 text-center">
+                    <h5 class="card-title">UF</h5>
+                    <p id="UF" class="card-text"></p>
+                </div>
+                <div class="card shadow p-3 mb-4 text-center">
+                    <h5 class="card-title">Dólar Observado</h5>
+                    <p id="DolarO" class="card-text"></p>
+                </div>
+                <div class="card shadow p-3 mb-4 text-center">
+                    <h5 class="card-title">Dólar Acuerdo</h5>
+                    <p id="DolarA" class="card-text"></p>
+                </div>
+                <div class="card shadow p-3 mb-4 text-center">
+                    <h5 class="card-title">Euro</h5>
+                    <p id="Euro" class="card-text"></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow p-3 mb-4 text-center">
+                    <h5 class="card-title">IPC</h5>
+                    <p id="IPC" class="card-text"></p>
+                </div>
+                <div class="card shadow p-3 mb-4 text-center">
+                    <h5 class="card-title">UTM</h5>
+                    <p id="UTM" class="card-text"></p>
+                </div>
+                <div class="card shadow p-3 mb-4 text-center">
+                    <h5 class="card-title">IVP</h5>
+                    <p id="IVP" class="card-text"></p>
+                </div>
+                <div class="card shadow p-3 mb-4 text-center">
+                    <h5 class="card-title">Imacec</h5>
+                    <p id="Imacec" class="card-text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="api_script.js"></script>
+
+</body>
+</html>

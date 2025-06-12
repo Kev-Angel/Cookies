@@ -1,0 +1,94 @@
+/* Style usado mayormente para el form*/
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: #faf7ee;
+    background: linear-gradient(121deg, rgba(245, 241, 228, 1) 14%, rgba(228, 206, 237, 1) 100%);
+}
+
+aside{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(200, 181, 40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aside1{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+
+.boton1, .Registrar_boton{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+
+
+.form{
+    background-color: rgb(255, 255, 255);
+    width: 420px;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    margin-top: 40px ;
+    border-radius: 10px;
+    box-shadow: 5px 3px 3px rgb(54, 54, 54);
+}
+
+.div_form{
+    color: black;
+    padding: 6px;
+}
+
+.input_form{
+    background-color:rgb(219, 219, 219);
+    border-radius: 3px;
+}
+
+.warnings{
+    width: 190px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+
+.container3{
+    background-color: bisque;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+@keyframes cambiarColor {
+    0% { background: #eeeafa; }
+    50% { background: #ffffff; }
+    100% { background: #e3f9e6; }
+}
+
+.form{
+    background: #e9e0ff;
+    background: linear-gradient(264deg, rgba(233, 224, 255, 1) 24%, rgba(245, 255, 224, 1) 86%);
+    animation: cambiarColor 5s infinite alternate;
+}
+
+.img999{
+    width: 40px;
+    height: 40px;
+    margin-left:5px ;
+    position: relative;
+}

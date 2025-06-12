@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disponibilidad</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookies Shop</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_venta.css" />
+    <script src="venta.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand bg-light navbar-light">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="galletas.png"
+                alt="imagen de galleta"
+                width="33"
+                height="33"
+                class="d-inline-block align-text-top"
+              />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="formulario.html">Formulario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="venta.html">Reservar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="clpconversicon.html">Monedas</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              >otros</a
+            >
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Rut.html">Rut</a></li>
+              <li>
+                <a class="dropdown-item" href="CambioClp.html"
+                  >Calcular cambio a $CLP</a
+                >
+              </li>
+              <li><a class="dropdown-item" href="edad.html">Tu edad</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container p-3 my-4 border text-center" id="container_5">
+      <h3>🍪 Nuestras Galletas</h3>
+      <p>
+        Descubre nuestra variedad de galletas disponibles. ¡Elige tu favorita y
+        disfrútala!
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="row mb-4 mt-2">
+        <div class="col-sm">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://images.aws.nestle.recipes/resized/546910e19c08ec91b3345de4f718e09a_Original_NTH_Chocolate_Chip_Cookie_1080_850.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Chocolate Chip Cookie</h5>
+              <p class="card-text">
+                Galleta clásica con chispas de chocolate, crujiente por fuera y
+                suave por dentro.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary"
+                onclick="agregarAlCarrito('Chocolate Chip Cookie')"
+                >Agregar al carro</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://puertoketo.cl/cdn/shop/files/2_20b673a5-ad1d-4e67-86be-e21c427996d0.png?v=1724960110"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Galletas de avena</h5>
+              <p class="card-text">
+                Galletas de avena, simples pero efectivas, ideales para comerlas
+                despues de almuerzo o meriendas
+              </p>
+              <a href="#" class="btn btn-primary" onclick="agregarAlCarrito('Galletas de avena')">Agregar al carro
+                
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://s1.elespanol.com/2023/04/09/cocinillas/recetas/postres/754934523_232288662_1706x960.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Galletas de Chocolate</h5>
+              <p class="card-text">
+                Galletas clasicas de chocolate y trozos de chocolate, ideales en
+                cualquier momento
+              </p>
+              <a href="#" class="btn btn-primary"onclick="agregarAlCarrito('Galletas de Chocolate')">Agregar al carro</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://irecetasfaciles.com/wp-content/uploads/2019/04/espirales-dulces-galletas-de-chocolate-y-vainilla.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Galletas Mixtas</h5>
+              <p class="card-text">
+                Galletas Mixtas de chocolate y vainilla, de gran variedad y
+                mixtas, ideales para compartir
+              </p>
+              <a href="#" class="btn btn-primary"onclick="agregarAlCarrito('Galletas de Mixtas')">Agregar al carro</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-sm">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://campograndeperu.com/wp-content/uploads/2024/03/galletas-de-fresa.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Galletas de Fresa</h5>
+              <p class="card-text">
+                Galletas de fresa, con un sabor intenso pero a la vez delicado y
+                dulce, ideal para las meriendas
+              </p>
+              <a href="#" class="btn btn-primary"onclick="agregarAlCarrito('Galletas de Fresa')">Agregar al carro</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://www.recetasnestle.cl/sites/default/files/srh_recipes/e2c855cf0b83b440a0b878e8adaa3a9d.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Galletas de miel</h5>
+              <p class="card-text">
+                Galletas de miel, dulces pero a la vez con un sabor delicado,
+                ideales para los amantes de la miel
+              </p>
+              <a href="#" class="btn btn-primary" onclick="agregarAlCarrito('Galletas de miel')">Agregar al carro</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0K95oIcoVhRkBsEURldGcxqW0F1fX_dDhtQ&s"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Galletas de guayaba</h5>
+              <p class="card-text">
+                Hechas con una metodologia venezolana, ideal para quienes
+                quieran probar algo diferente
+              </p>
+              <a href="#" class="btn btn-primary"onclick="agregarAlCarrito('Galletas de guayaba')">Agregar al carro</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://assets.elgourmet.com/wp-content/uploads/2023/03/cooki_lg91oLQjnwTD8XNvRqYI2MEdO34xct.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Galletas Con Pasas</h5>
+              <p class="card-text">
+                Galletas con trozos de pasas, ideales para quienes disfruten los
+                frutos secos y el sabor de las pasas
+              </p>
+              <a href="#" class="btn btn-primary" onclick="agregarAlCarrito('Galletas con pasas')"
+                >Agregar al carro</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-4">
+        <h3>🛒 Tu Carrito de Compras</h3>
+        <div id="carrito" class="p-3 border"></div>
+        <a href="formulario.html"><button  id="finalizarCompra" class="btn btn-success mt-3 d-none" onclick="redirigirFormulario()">Finalizar compra</button></a>
+      </div>
+
+    </div>
+    <script src="venta.js"></script>
+
+  </body>
+</html>
